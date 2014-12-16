@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tibetan Cuisine</title>
+    </head>
+    <body>
+        {% extends "landingpage.html" %}
+        <!-- freetibet.html -->
+        {% block title %}
+        Cuisine | Learn about local businesses
+        {% endblock %}
+        {% block content %}Tibetan Cuisine in New York City{% endblock %}
+
+        {% block body %}
+        <section class="module parallax parallax-cuisine-1">
+  <div class="container">
+    <!-- <h1>Tibet</h1> -->
+  </div>
+</section>
+
+<section class="module content">
+  <div class="container">
+    <h2>Phayul</h2>
+    <p>Phayul is a resturaunt located at ADDRESS. It famously serves BLANK. When I interviewed the head chef at Phayul, he spoke to be about his experience working in New York City. One common theme at the resturaunts I visited is that a majority of the customers hear about the resturaunts through word of mouth and most many of the customers are Tibetans. </p>
+    
+  </div>
+</section>
+
+<section class="module parallax parallax-cuisine-2">
+  <div class="container">
+   <!--  <h1>Rise</h1> -->
+   
+  </div>
+</section>
+
+<section class="module content">
+  <div class="container">
+    <h2>Friend's Corner Cafe</h2>
+    <p></p>
+  </div>
+</section>
+
+<section class="module parallax parallax-cuisine-3">
+  <div class="container">
+    <!-- <h1>Calm</h1> -->
+  </div>
+</section>
+
+<section class="module content">
+  <div class="container">
+    <h2>GangJong Kitchen</h2>
+    <p></p>
+  </div>
+</section>
+<section class="module parallax parllax-cuisine-4">
+    <div class="container">
+        
+    </div>
+</section>
+<section class="module content">
+    <div class="container">
+    <h2>Amdo Kitchen New York</h2>
+    <p> </p>
+    </div>
+</section>
+<section class="module parallax parllax-cuisine-5">
+    <div class="container">
+        <h1><a href="{{ url_for('momocrawl_page') }}" class="button extended">Click Here</a> to check out the Momo Crawl in Jackson Heights</h1>
+    </div>
+</section>
+<section class="module content">
+    <div class="container">
+    <h2>Learn more about the Momo Crawl</h2>
+    </div>
+</section>
+        {% endblock %}
+    </body>
+</html>

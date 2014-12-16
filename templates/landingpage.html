@@ -1,0 +1,86 @@
+<html>
+<head>
+  <title>{% block title %}Tibet{% endblock %}</title>
+  <link rel='stylesheet' 
+      type='text/css'
+      href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,300,400'>
+  <link rel="stylesheet" 
+      type="text/css" 
+      href="{{ url_for('static', filename='css/style.css') }}">
+      <link rel="stylesheet" 
+      type="text/css" 
+      href="{{ url_for('static', filename='css/app.css') }}">
+       <link rel="stylesheet" 
+      type="text/css" 
+      href="{{ url_for('static', filename='css/foundation.css') }}">
+      <link rel="stylesheet" 
+      type="text/css" 
+      href="{{ url_for('static', filename='css/normalize.css') }}">
+</head>
+<body>
+  <nav>
+    <div class="content">
+    <div class ="row">
+     <h2>Tibet Social Media</h2>
+     </div>
+<!--     <div class="row splash-page">
+            <div class="medium-14 medium-centered columns">
+                <div class="panel">
+                    <h1>Social Media and Tibetan Businesses in New York City</h1>
+                    <a class="button" href="/search">Launch</a>
+                    <p>This is a <em><strong>really</strong> cool</em> paragraph.  
+                       My favorite search engine is <a href="http://www.google.com">Google</a></p>
+                </div>
+            </div>
+        </div> -->
+    <div class="row">
+            <div class="large-9 columns">
+                <div clas="panel">
+                   <!--  <h1>Search</h1>
+                    <form action="/search" method="post"> -->
+                        <div class="row">
+                            <div class="small-3 columns">
+                                <a href="{{ url_for('freetibet_page') }}" class="button round"/>Free Tibet</a>
+                            </div>
+                            <div class="small-3 columns">
+                                <a href="{{ url_for('cuisine_page') }}" class="button round"/>Cuisine</a>
+                            </div>
+                            <div class="small-3 columns">
+                               <a href="{{ url_for('business_page') }}" class="button round"/>Businesses</a>
+                            </div>
+                            <div class="small-3 columns">
+                               <a href="{{ url_for('forum_page') }}" class="button round"/>Forum</a>
+                            </div>
+                        </div>
+                   <!--  </form> -->
+                    {% block results %}{% endblock %}
+                </div>
+            </div>
+        </div>
+     
+      <!-- <h2>{% block current_page %}Home{% endblock %}</h2>
+      <ul class="menu">
+        <li>
+          <a href="{{ url_for('home_page') }}">Home</a>
+        </li>
+        <li>
+          <a href="{{ url_for('blog_page') }}">Blog</a>
+        </li>
+      </ul> -->
+    </div>
+  </nav>
+
+  <div class="content">
+  <div class="row"><h1>
+    {% block content %}
+
+<!--     <h2>Tibet Social Media</h2>
+ -->    {% endblock %}</h1>
+ </div>
+ {%block body %} {% endblock %}
+  </div>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>

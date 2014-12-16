@@ -1,0 +1,26 @@
+/* demo.css */
+p {
+    color: blue;
+}
+
+.blue {
+    color: blue;
+}
+
+.underline {
+    /* Use the "text-deocration property to underline text */
+    text-decoration: underline;
+}
+
+#blueblue {
+    color: blue;
+}
+/* descendant example */
+.red p {
+    color: red;
+}
+
+/* child example */
+.green > p {
+    color: green;
+}
