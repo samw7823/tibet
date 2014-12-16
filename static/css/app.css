@@ -75,6 +75,20 @@ section.module.parallax-2 {
 section.module.parallax-3 {
   background-image: url("http://mmorelliblog.files.wordpress.com/2013/03/reu-taiwan_.jpg");
 }
+section.module.parallax-cuisine-3{
+background-image: url("http://media-cdn.tripadvisor.com/media/photo-s/05/cd/a1/83/gangjong-kitchen.jpg");
+}
+
+section.module.parallax-cuisine-1{
+    background-image: url("https://thepoliticalfoodie.files.wordpress.com/2014/06/20140603-105147-39107248.jpg");
+}
+
+section.module.parallax-cuisine-2{
+    background-image: url("http://assets.dnainfo.com/generated/photo/2014/11/momo-crawl-photo-1415305587.jpg/larger.jpg");
+}
+section.module.parallax-momo-1{
+background-image: url("https://farm6.staticflickr.com/5614/15651059440_414e5b4a28.jpg");
+}
 iframe{
     margin-top: 50px;
     margin-left: 50px;
