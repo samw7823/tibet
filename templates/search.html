@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Search</title>
+    </head>
+    <body>
+        {% extends "landingpage.html" %}
+        <!-- search.html -->
+        {% block title %}
+        Search | Learn about local businesses
+        {% endblock %}
+
+        {% block body %}
+        <div class="row">
+            <div class="large-12 columns">
+                <div clas="panel">
+                    <h1>Search</h1>
+                    <form action="/search" method="post">
+                        <div class="row">
+                            <div class="small-10 columns">
+                                <input type="text" placeholder="Search for your idea" name="user_search" required/>
+                            </div>
+                            <div class="small-2 columns">
+                                <button class="postfix"  type="submit">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                    {% block results %}{% endblock %}
+                </div>
+            </div>
+        </div>
+        {% endblock %}
+    </body>
+</html>

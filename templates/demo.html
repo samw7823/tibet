@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- demo.html -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Demo</title>
+        <link src="demo.css" 
+            rel="stylesheet"
+            type="text/css">
+    </head>
+    <body>
+        <p>This text is blue.</p>
+        <p>An so is this text.</p>
+        <p class="blue">This text is BLUEEE<p>
+        <p class="blue underline">This Text is blue and underlined</p>
+        <p>And this text.</p>
+        <p id="blueblue">This text is blueblue<p>
+        <!-- example of descent selector syntax -->
+        <div class="red">
+            <h1>This text is not red</h1>
+            <p>This text is red</p>
+            <span>
+                <p>This text is also blue</p>
+            </span>
+        </div>
+        <!-- example of child selectors select1>select2 -->
+        <div class="green">
+            <h1>This text is not green</h1>
+            <p>This text is green</p>
+            <span>
+                <p>This text is NOT blue,
+                    because its parent is the 
+                    span tag, which does not 
+                    have the "blue" class.
+                </p>
+            </span>
+        </div>
+    </body>
+</html>
