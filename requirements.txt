@@ -14,6 +14,13 @@ matplotlib==1.1.1
 modulegraph==0.10.1
 numpy==1.6.2
 py2app==0.7.1
+Django==1.6.5
+dj-database-url==0.3.0
+dj-static==0.0.6
+django-toolbelt==0.0.1
+gunicorn==19.0.0
+psycopg2==2.5.3
+static3==0.5.1
 pyOpenSSL==0.13
 pyobjc-core==2.3.2a0
 pyobjc-framework-AddressBook==2.3.2a0
