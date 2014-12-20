@@ -1,1 +1,1 @@
-web: gunicorn app: APP -b 0.0.0.0: $PORT -w 3
+web: gunicorn --pythonpath app app:app
