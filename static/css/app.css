@@ -76,7 +76,7 @@ section.module.parallax-3 {
   background-image: url("http://mmorelliblog.files.wordpress.com/2013/03/reu-taiwan_.jpg");
 }
 section.module.parallax-cuisine-3{
-background-image: url("http://media-cdn.tripadvisor.com/media/photo-s/05/cd/a1/83/gangjong-kitchen.jpg");
+background-image: url("https://thebluecollarfoodie.files.wordpress.com/2014/07/16veggiemomo.jpg");
 }
 
 section.module.parallax-cuisine-1{
@@ -84,11 +84,42 @@ section.module.parallax-cuisine-1{
 }
 
 section.module.parallax-cuisine-2{
-    background-image: url("http://assets.dnainfo.com/generated/photo/2014/11/momo-crawl-photo-1415305587.jpg/larger.jpg");
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/6/6c/Plateful_of_Momo_in_Nepal.jpg");
+}
+section.module.parallax-cuisine-5{
+    background-image: url("https://farm6.staticflickr.com/5614/15651059440_414e5b4a28.jpg");
+}
+
+section.module.parallax-cuisine-4{
+    background-image: url("https://pbs.twimg.com/media/BYaOu49IEAAzvn-.jpg");
 }
 section.module.parallax-momo-1{
-background-image: url("https://farm6.staticflickr.com/5614/15651059440_414e5b4a28.jpg");
+background-image: url("http://www.himalayaresidence.net/wp-content/gallery/foods/dsc_0019.jpg");
 }
+
+section.module.parallax-momo-2{
+background-image: url("http://i.ytimg.com/vi/4n2Ai9qlcic/maxresdefault.jpg");
+}
+section.module.parallax-free-1{
+background-image: url("http://www.tibetanreview.net/wp-content/uploads/2014/07/road-in-tibet.jpg");
+}
+section.module.parallax-free-2{
+background-image: url("http://news.xinhuanet.com/english/photo/2013-07/22/132563548_11n.jpg");
+}
+section.module.parallax-free-3{
+background-image: url("http://static.panoramio.com/photos/large/17183425.jpg");
+}
+section.module.parallax-b-1{
+background-image: url("http://www.dokham.com/v/vspfiles/assets/images/2012%20New%20Fall%20Header.jpg");
+}
+section.module.parallax-b-2{
+background-image: url("http://www.gatewaytotibet.com/wp-content/uploads/2013/04/gateway_to_tibet_art.jpg");
+}
+section.module.parallax-b-3{
+background-image: url("http://www.himalayansalon.com/uploads/banners/Banner-himalayan-salon.jpg");
+}
+
+
 iframe{
     margin-top: 50px;
     margin-left: 50px;
