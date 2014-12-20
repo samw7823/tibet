@@ -75,24 +75,23 @@ section.module.parallax-2 {
 section.module.parallax-3 {
   background-image: url("http://mmorelliblog.files.wordpress.com/2013/03/reu-taiwan_.jpg");
 }
-section.module.parallax-cuisine-3{
-background-image: url("https://thebluecollarfoodie.files.wordpress.com/2014/07/16veggiemomo.jpg");
-}
-
 section.module.parallax-cuisine-1{
     background-image: url("https://thepoliticalfoodie.files.wordpress.com/2014/06/20140603-105147-39107248.jpg");
 }
-
 section.module.parallax-cuisine-2{
     background-image: url("http://upload.wikimedia.org/wikipedia/commons/6/6c/Plateful_of_Momo_in_Nepal.jpg");
 }
+section.module.parallax-cuisine-3{
+background-image: url("https://thebluecollarfoodie.files.wordpress.com/2014/07/16veggiemomo.jpg");
+}
+section.module.parallax-cuisine-4{
+    background-image: url("https://pbs.twimg.com/media/BYaOu49IEAAzvn-.jpg");
+}
+
 section.module.parallax-cuisine-5{
     background-image: url("https://farm6.staticflickr.com/5614/15651059440_414e5b4a28.jpg");
 }
 
-section.module.parallax-cuisine-4{
-    background-image: url("https://pbs.twimg.com/media/BYaOu49IEAAzvn-.jpg");
-}
 section.module.parallax-momo-1{
 background-image: url("http://www.himalayaresidence.net/wp-content/gallery/foods/dsc_0019.jpg");
 }
