@@ -1,18 +1,12 @@
 from flask import Flask, jsonify, render_template, request
 import requests
-
-
 app = Flask(__name__)
-app.config['DEBUG'] = True #Only include while testing
+#app.config['DEBUG'] = True #Only include while testing
 
 @app.route('/')
 def home_page():
     """The home page."""
     return render_template('home.html')
-
-@app.route('/hello')
-def hello():
-    return render_template('hello.html')
 
 @app.route('/blog')
 def blog_page():
